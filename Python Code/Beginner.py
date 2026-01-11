@@ -139,3 +139,8 @@ print(random.shuffle([1, 2, 3, 4, 5]))  # shuffles the list in place
 print(random.choices(['red', 'blue', 'green'], weights=[10, 5, 1], k=3)) # prints 3 random colors with specified weights
 print(random.sample(['red', 'blue', 'green', 'yellow'], 2)) # prints 2 random colors from the list
 print(random.choice('abcdefghij')) # prints a random character from the string
+
+#code-18                   string join() Method
+print("Items: " + ", ".join(["apple", "banana"]))  # Items: apple, banana
+
+
