@@ -43,3 +43,12 @@ Num-7:
     *The function changes x to "fantastic" and prints it immediately.
     *So the first output is "Python is fantastic" (inside function).
     *The second print (outside function) also shows "Python is fantastic" because the global x was already changed.*
+
+
+
+**Complex Numbers:** 
+You cannot compare complex numbers
+You cannot convert complex to int or float
+
+**Random Numbers:** 
+Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers.

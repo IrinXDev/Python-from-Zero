@@ -88,3 +88,54 @@ myfunc()
 print("Python is " + x)     #Python is fantastic
                             #Python is fantastic
 
+
+#code-12                                 Data Types in Python
+z = complex(2, 5)
+print(z)                                  #(2+5j)
+
+
+#code-13               Access real and imaginary parts
+z = 3 + 4j
+
+print(z.real)   # 3.0
+print(z.imag)   # 4.0
+print(z.conjugate())  # (3-4j)
+print(type(z))  # <class 'complex'>
+
+#code-14               Convert to complex number
+x = 2     # int   
+y = 3.5   # float
+
+a = complex(x)      # convert int to complex
+b = complex(y)      # convert float to complex
+print(a)    # (2+0j)
+print(b)    # (3.5+0j)
+print(type(a))  # <class 'complex'>
+print(type(b))  # <class 'complex'>
+
+#code-15               Arithmetic Operations with Complex Numbers
+a = 2 + 3j
+b = 1 + 4j
+print(a + b)  # (3+7j)
+print(a - b)  # (1-1j)
+print(a * b)  # (-10+11j)
+print(a / b)  # (0.8235294117647058-0.29411764705882354j)
+
+#code-16               
+# Conjugate of a complex number
+a = 2 + 3j
+conjugate_a = a.conjugate()
+print(conjugate_a)  # (2-3j)
+
+#code-17
+import random
+
+print(random.randrange(1, 10))  # prints a random integer from 1 to 9
+print(random.choice(['apple', 'banana', 'cherry']))  # prints a random fruit from the list
+print(random.random())   # prints a random float between 0.0 and 1.0
+print(random.uniform(1.5, 10.5))  # prints a random float between 1.5 and 10.5
+print(random.sample(range(1, 100), 5)) # prints a list of 5 unique random numbers from 1 to 99
+print(random.shuffle([1, 2, 3, 4, 5]))  # shuffles the list in place
+print(random.choices(['red', 'blue', 'green'], weights=[10, 5, 1], k=3)) # prints 3 random colors with specified weights
+print(random.sample(['red', 'blue', 'green', 'yellow'], 2)) # prints 2 random colors from the list
+print(random.choice('abcdefghij')) # prints a random character from the string

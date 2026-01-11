@@ -35,6 +35,14 @@
               fruits = ["apple", "banana", "cherry"]
               x, y, z = fruits
 
+**Data type:**
+     python support a specific neumerical data type , **complex data type-** A built-in numeric data type used to represent numbers that have two parts:real part + imaginary part
+     z = 3 + 4j
+
+     3 → real part
+     4j → imaginary part
+     j means √-1 (math people write it as i, Python uses j)
+
 List → []
 Tuple → ()
 Dictionary → {}
