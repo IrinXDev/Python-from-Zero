@@ -46,9 +46,11 @@ Num-7:
 
 
 
-**Complex Numbers:** 
+Num -8:**Complex Numbers:** 
 You cannot compare complex numbers
 You cannot convert complex to int or float
 
-**Random Numbers:** 
+Num -9:**Random Numbers:** 
 Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers.
+
+Num-10:**Multiline Strings**    Use -"""          """.

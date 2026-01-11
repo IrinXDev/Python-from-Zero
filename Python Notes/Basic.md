@@ -43,7 +43,8 @@
      4j → imaginary part
      j means √-1 (math people write it as i, Python uses j)
 
-List → []
+
 Tuple → ()
 Dictionary → {}
 Set → {}
+List-[]
