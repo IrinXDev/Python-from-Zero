@@ -36,6 +36,8 @@
               x, y, z = fruits
 
 **Data type:**
+
+     Python does not have a character data type, a single character is simply a string with a length of 1.
      python support a specific neumerical data type , **complex data type-** A built-in numeric data type used to represent numbers that have two parts:real part + imaginary part
      z = 3 + 4j
 
@@ -43,7 +45,10 @@
      4j → imaginary part
      j means √-1 (math people write it as i, Python uses j)
 
-
+**Escape Characters-**   
+                   /n-
+                   /t
+                   /
 Tuple → ()
 Dictionary → {}
 Set → {}

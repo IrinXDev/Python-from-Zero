@@ -14,7 +14,11 @@ Num-4:  Print Without a New Line-
      Output:                                               Output:
      Hello World! I will print on the same line.              Hello World!
                                                               I will print on the same line.
-Num-5: Concatenation
+Num-5: Concatenation:
+    You can’t concatenate things that don’t naturally “fit together” unless you convert them first.
+    Set + Set .Why?
+    Sets are unordered. + makes no logical sense.
+    Dict + Dict (with +)
 
 Num-6:
  Global Variable fact-
@@ -54,3 +58,4 @@ Num -9:**Random Numbers:**
 Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers.
 
 Num-10:**Multiline Strings**    Use -"""          """.
+

@@ -143,4 +143,10 @@ print(random.choice('abcdefghij')) # prints a random character from the string
 #code-18                   string join() Method
 print("Items: " + ", ".join(["apple", "banana"]))  # Items: apple, banana
 
+#code-19                   
+first="I am ria"
+sec="I am a comsci std"
 
+print(first+"\n"+sec)
+
+#code-20                  
